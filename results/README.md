@@ -1,0 +1,1 @@
+This folder will store the intermediate results of our project. (Charts, notes, useful scripts, etc.)
