@@ -1,1 +1,0 @@
-This folder stores raw data collected from various sources.

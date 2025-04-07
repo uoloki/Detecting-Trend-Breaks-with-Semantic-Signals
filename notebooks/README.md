@@ -1,1 +1,0 @@
-This folder stores all the Jupyter notebooks related to the project.
