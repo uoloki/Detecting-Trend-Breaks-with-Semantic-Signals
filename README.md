@@ -13,11 +13,11 @@ Through the combination of applying natural language processing techniques and t
 ## Folder Structure
 
 ```
-Detecting-Trend-Breaks-with-Semantic-Signals  
-├── data/  
-│   ├── raw/             # Raw downloaded datasets (e.g., tweets, stock data) 
-│   └── processed/       # Cleaned, structured data ready for modeling  
-├── notebooks/           # Jupyter notebooks for EDA and modeling  
+Detecting-Trend-Breaks-with-Semantic-Signals
+├── data/
+│   ├── raw/             # Raw downloaded datasets (e.g., tweets, stock data)
+│   └── processed/       # Cleaned, structured data ready for modeling
+├── notebooks/           # Jupyter notebooks for EDA and modeling
 └── results/             # Evaluation results, graphs, and exported data
 ```
 
@@ -25,7 +25,7 @@ Detecting-Trend-Breaks-with-Semantic-Signals
 
 ```
 1. Clone the repository:
-   git clone https://github.com/yourusername/Detecting-Trend-Breaks-with-Semantic-Signals.git  
+   git clone https://github.com/yourusername/Detecting-Trend-Breaks-with-Semantic-Signals.git
    cd Detecting-Trend-Breaks-with-Semantic-Signals
 ```
 
