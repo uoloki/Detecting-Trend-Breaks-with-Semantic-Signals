@@ -1,1 +1,0 @@
-This folder stores processed data from neighbouring ./raw folder.
