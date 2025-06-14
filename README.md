@@ -236,4 +236,4 @@ The project generates comprehensive visualizations:
 
 ## License
 
-This project is for educational and research purposes.
+This project is licensed via Apache 2.0 license.
