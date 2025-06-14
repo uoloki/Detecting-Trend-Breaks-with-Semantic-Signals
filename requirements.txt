@@ -1,6 +1,7 @@
-numpy
-pandas
-matplotlib
-scikit-learn
-kagglehub
-seaborn
+matplotlib==3.10.3
+numpy==2.2.6
+pandas==2.3.0
+scikit_learn==1.7.0
+sentence_transformers==4.1.0
+torch==2.7.1
+umap_learn==0.5.7
