@@ -22,6 +22,8 @@ The following works inspired parts of this project :
 
 ## Key Results & Innovation
 
+![Bar chart of model improvements](https://github.com/uoloki/Detecting-Trend-Breaks-with-Semantic-Signals/blob/main/results/bar%20chart.png)
+
 - **Best Overall Model**: Weighted Ensemble achieving **29.5% improvement** over naive baseline (MSE: 674.5)
 - **Best Individual Model**: CNN-LSTM with full features achieving **27.4% improvement** (MSE: 695.4)
 - **Comprehensive Analysis**: Multi-seed stability testing across 50 random seeds
@@ -43,8 +45,8 @@ python -m venv venv #activate virtual environment
 venv\Scripts\activate #for Windows
 source venv/bin/activate #for macOS/Linux
 
-#install dependencies (create requirements.txt with necessary packages)
-#pip install torch torchvision pandas numpy scikit-learn matplotlib seaborn tqdm
+#install dependencies 
+pip install -r requirements.txt
 ```
 
 ### Usage
@@ -95,10 +97,14 @@ python main.py --all --seeds 50 #complete analsis suite (50 seeds)
 
 ## Data Quality & Processing
 
+![Processing pipeline diagram](https://github.com/uoloki/Detecting-Trend-Breaks-with-Semantic-Signals/blob/main/results/graph14.svg)
+
 ### Data Sources
 - **S&P 500 Price Data**: Daily OHLCV data from Yahoo Finance (2020)
 - **Financial Tweets**: StockEmotion dataset with sentiment labels
 - **Total Samples**: approximately 250 trading days with aligned sentiment data
+
+![Train / validation / test split](https://github.com/uoloki/Detecting-Trend-Breaks-with-Semantic-Signals/blob/main/results/graph21.svg)
 
 ### Feature Engineering
 
@@ -146,6 +152,8 @@ Repo/
 ```
 
 ## Results Analysis
+
+![Time-series prediction vs. actual](https://github.com/uoloki/Detecting-Trend-Breaks-with-Semantic-Signals/blob/main/results/model%20performance%20graph.png)
 
 ### Performance Comparison (50-Seed Analysis)
 
